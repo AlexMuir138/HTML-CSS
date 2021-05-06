@@ -1,0 +1,79 @@
+:root {
+  --primary:rgb(24, 2, 29);
+  --blue: rgb(17, 89, 223);
+  --dark-blue: rgb(20, 69, 160);
+  --light-blue: rgb(101, 160, 248);
+  --light: white;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-header{
+  background-color: var(--dark-blue);
+  padding: 2rem;
+  margin-top: auto;
+}
+.box{
+  width: 35%;
+  margin-top: 1em;
+  margin-right: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.box-2{
+  width: 25%;
+  margin-top: 4em;
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  background-color: var(--light-blue);
+  width: 100%;
+  height: 25px;
+}
+.container-2{
+  background-color: var(--blue);
+  width: 75%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.m-2{
+  margin: .25rem;
+}
+.m-3{
+  margin: .5rem;
+}
+.m-4{
+  margin: .75rem;
+}
+.m-5{
+  margin: 1rem;
+}
+
+.text-center{
+  text-align: center;
+}
+.text-light{
+  color: var(--light)
+}
+.text-primary{
+  color: var(--primary)
+}
+
+.top-header{
+  background-color: var(--dark-blue);
+  padding: 1rem;
+}
